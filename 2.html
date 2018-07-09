@@ -3,6 +3,35 @@
 <head>
  <title> WEB1- mypage </title>
  <meta charset="utf-8">
+ <style>
+ #active{
+   color: red;
+ }
+ .saw{
+   color:gray;
+ }
+   a {
+     color:black;
+     text-decoration: none;
+   }
+
+
+   h1 {
+     font-size: 60px;
+     text-align: center;
+     border-bottom:1px solid gray;
+     margin:0;
+     padding: 20px
+   }
+
+   #grid{
+     display: grid;
+     grid-template-columns: 150px 1fr;
+   }
+   #grid ol{
+     padding-left: 33px;
+   }
+ </style>
 </head>
 <body>
   <h1><a href="index.html">BIZUP</a><h1>
@@ -11,7 +40,7 @@
  <li><a href="2.html">history</a></li>
  <li><a href="3.html">Blog</a></li>
 <ol>
-
+<div id="grid">
 <h1>history</h1>
 be me is application that <strong> help achieving <u>
   <a href="https://www.coursehero.com/file/p62qgkl2/Goal-Specification-It-is-very-important-for-team-members-to-have-common-goals/"
@@ -26,6 +55,8 @@ be me is application that <strong> help achieving <u>
 src="https://www.youtube.com/embed/sSbqWwxN0K8"
 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
+
 <p>This is<br>a paragraph<br>with line breaks.</p>
+</div>
 </body>
 </html>
